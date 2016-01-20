@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPChatTextAreaPromptViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPChatTextAreaPromptViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="228" placeholderIntrinsicHeight="29" text="text header" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pav-nJ-YgT" userLabel="TextHeaderLabel" customClass="UIBorderedLabel" customModule="SpeechApp" customModuleProvider="target">
+                        <rect key="frame" x="43" y="3" width="228" height="29"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="228" placeholderIntrinsicHeight="39" text="text content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m36-14-OWp" userLabel="TextContentLabel" customClass="UIBorderedLabel" customModule="SpeechApp" customModuleProvider="target">
+                        <rect key="frame" x="43" y="35" width="228" height="39"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="nQo-ra-chD" userLabel="UserImageView">
+                        <rect key="frame" x="5" y="59" width="35" height="35"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="31" placeholderIntrinsicHeight="31" translatesAutoresizingMaskIntoConstraints="NO" id="rua-iF-jr2" customClass="AsyncImageView">
+                                <rect key="frame" x="2" y="2" width="31" height="31"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="koJ-xM-SB1"/>
+                            <constraint firstAttribute="height" constant="35" id="ukM-Ey-5QM"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="130" placeholderIntrinsicHeight="18" text="Ionut Cristian Paraschiv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmT-id-eEQ" userLabel="NameLabel" customClass="UIHorizontalBorderedLabel" customModule="SpeechApp" customModuleProvider="target">
+                        <rect key="frame" x="43" y="77" width="130" height="18"/>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.52549019610000003" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="9Nh-iE-jbC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="m36-14-OWp" firstAttribute="leading" secondItem="nQo-ra-chD" secondAttribute="trailing" constant="3" id="7xm-c0-OXQ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="m36-14-OWp" secondAttribute="trailing" constant="39" id="AKi-Jr-MeM"/>
+                    <constraint firstAttribute="bottom" secondItem="nQo-ra-chD" secondAttribute="bottom" constant="5" id="EA6-2Q-z1h"/>
+                    <constraint firstItem="nQo-ra-chD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="H4o-Ct-p0N"/>
+                    <constraint firstItem="nmT-id-eEQ" firstAttribute="leading" secondItem="nQo-ra-chD" secondAttribute="trailing" constant="3" id="JEV-ZP-X3M"/>
+                    <constraint firstAttribute="bottom" secondItem="nmT-id-eEQ" secondAttribute="bottom" constant="4" id="MFM-3k-DWI"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Pav-nJ-YgT" secondAttribute="trailing" constant="39" id="Rcf-ru-4PN"/>
+                    <constraint firstItem="Pav-nJ-YgT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="UPm-kI-jbb"/>
+                    <constraint firstItem="Pav-nJ-YgT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="j0l-hs-NQb"/>
+                    <constraint firstItem="nmT-id-eEQ" firstAttribute="top" secondItem="m36-14-OWp" secondAttribute="bottom" constant="3" id="n7a-q6-BdR"/>
+                    <constraint firstItem="m36-14-OWp" firstAttribute="top" secondItem="Pav-nJ-YgT" secondAttribute="bottom" constant="3" id="nts-S2-kBX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="labelContent" destination="m36-14-OWp" id="4AY-Zz-4OA"/>
+                <outlet property="labelTextHeader" destination="Pav-nJ-YgT" id="MPR-hT-pYU"/>
+                <outlet property="userImageView" destination="rua-iF-jr2" id="U8s-he-NJR"/>
+                <outlet property="userImageViewContainer" destination="nQo-ra-chD" id="bye-jE-Q4r"/>
+                <outlet property="userNameLabel" destination="nmT-id-eEQ" id="saz-6b-YMA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,31 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "MenuItems" :
+                [
+                    {
+                        "Name" : "Home",
+                        "Type" : "Home"
+                    },
+                    {
+                        "Name" : "Certificates",
+                        "Type" : "Certificates"
+                    },
+                    {
+                        "Name" : "My Profile",
+                        "Type" : "Profile"
+                    },
+                 
+                    {
+                        "Name" : "Notifications",
+                        "Type" : "Notifications"
+                    },
+                    {
+                        "Name" : "Log Out",
+                        "Type" : "LogOut"
+                    }
+                ]
+        }
+}

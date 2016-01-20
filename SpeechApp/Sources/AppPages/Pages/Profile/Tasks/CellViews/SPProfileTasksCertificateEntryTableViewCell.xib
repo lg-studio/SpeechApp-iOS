@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPProfileTasksCertificateEntryTableViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPProfileTasksCertificateEntryTableViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkd-9b-zsg">
+                        <rect key="frame" x="2" y="2" width="296" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="50" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipn-F0-P8j" userLabel="Label1">
+                                <rect key="frame" x="5" y="5" width="140" height="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="50" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pct-tL-Qjx" userLabel="Label2">
+                                <rect key="frame" x="150" y="5" width="140" height="50"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ipn-F0-P8j" firstAttribute="width" secondItem="pct-tL-Qjx" secondAttribute="width" id="GCP-dj-ryP"/>
+                            <constraint firstItem="ipn-F0-P8j" firstAttribute="leading" secondItem="zkd-9b-zsg" secondAttribute="leading" constant="5" id="ayw-Ny-koO"/>
+                            <constraint firstAttribute="bottom" secondItem="pct-tL-Qjx" secondAttribute="bottom" constant="5" id="b1h-Kn-NdO"/>
+                            <constraint firstAttribute="trailing" secondItem="pct-tL-Qjx" secondAttribute="trailing" constant="6" id="bAt-QH-huO"/>
+                            <constraint firstItem="pct-tL-Qjx" firstAttribute="top" secondItem="zkd-9b-zsg" secondAttribute="top" constant="5" id="cQZ-Ji-jIo"/>
+                            <constraint firstItem="pct-tL-Qjx" firstAttribute="leading" secondItem="ipn-F0-P8j" secondAttribute="trailing" constant="5" id="e46-up-UMy"/>
+                            <constraint firstItem="ipn-F0-P8j" firstAttribute="top" secondItem="zkd-9b-zsg" secondAttribute="top" constant="5" id="evS-vd-iWb"/>
+                            <constraint firstAttribute="bottom" secondItem="ipn-F0-P8j" secondAttribute="bottom" constant="5" id="f2o-MV-dUT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="zkd-9b-zsg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="2t8-ul-lNI"/>
+                    <constraint firstItem="zkd-9b-zsg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="bxx-yK-nPU"/>
+                    <constraint firstAttribute="trailing" secondItem="zkd-9b-zsg" secondAttribute="trailing" constant="2" id="eV3-8Q-mNG"/>
+                    <constraint firstAttribute="bottom" secondItem="zkd-9b-zsg" secondAttribute="bottom" constant="2" id="mD8-lW-HpC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="label1" destination="ipn-F0-P8j" id="13g-1X-Wga"/>
+                <outlet property="label2" destination="pct-tL-Qjx" id="mKd-th-5E9"/>
+                <outlet property="viewContainer" destination="zkd-9b-zsg" id="b8P-F7-TbF"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

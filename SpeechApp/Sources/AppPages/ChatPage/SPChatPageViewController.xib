@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPChatPageViewController" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="chatInputView" destination="z4g-vX-oSL" id="RoK-iW-qEE"/>
+                <outlet property="chatInputViewHeight" destination="jjC-pL-mje" id="jqb-IA-BYx"/>
+                <outlet property="chatOutputTableView" destination="BWk-YO-pFd" id="989-u2-aKE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="310" placeholderIntrinsicHeight="548" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="BWk-YO-pFd" userLabel="Output Table View">
+                    <rect key="frame" x="5" y="10" width="310" height="548"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="RIr-u2-wpg"/>
+                        <outlet property="delegate" destination="-1" id="NtX-nj-tQK"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="z4g-vX-oSL" userLabel="Input View">
+                    <rect key="frame" x="0.0" y="568" width="320" height="0.0"/>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.10196078431372549" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="jjC-pL-mje"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="BWk-YO-pFd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="2cQ-BK-lVz"/>
+                <constraint firstAttribute="trailing" secondItem="BWk-YO-pFd" secondAttribute="trailing" constant="5" id="MV3-lV-FRo"/>
+                <constraint firstAttribute="trailing" secondItem="z4g-vX-oSL" secondAttribute="trailing" id="bLE-iO-yPA"/>
+                <constraint firstAttribute="bottom" secondItem="z4g-vX-oSL" secondAttribute="bottom" id="i7u-3d-xQe"/>
+                <constraint firstItem="z4g-vX-oSL" firstAttribute="top" secondItem="BWk-YO-pFd" secondAttribute="bottom" constant="10" id="xL8-aS-uKY"/>
+                <constraint firstItem="BWk-YO-pFd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="z8d-eg-KTH"/>
+                <constraint firstItem="z4g-vX-oSL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zYY-gI-RsU"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

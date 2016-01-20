@@ -1,0 +1,135 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "MultipleChoiceOptions" :
+            {
+                "DisplayText" : "Please select an image",
+                "Options" :
+                [
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img2.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img3.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img4.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img2.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img3.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img4.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img2.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Image",
+                        "Properties" :
+                            {
+                                "ImageUrl" : "http://46.4.214.252:8080/img3.png"
+                            },
+                        "InnerOptions" :
+                            [
+                            ]
+                    }
+                ]
+            }
+        }
+}

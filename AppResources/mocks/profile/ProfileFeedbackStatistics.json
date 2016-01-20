@@ -1,0 +1,17 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+    {
+        "Statistics" :
+        {
+            "FeedbacksGiven" : 20,
+            "AvgFeedbackGiven" : 0.7,
+            "FeedbacksReceived" : 23,
+            "AvgFeedbackReceived" : 0.45,
+            "FeedbackScore" : 2.2,
+            "FeedbackLevel" : "Expert Rater"
+        }
+        
+    }
+}

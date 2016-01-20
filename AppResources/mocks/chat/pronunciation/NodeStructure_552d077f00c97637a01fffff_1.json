@@ -1,0 +1,71 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "Items" :
+            [
+                {
+                    "Id": 0,
+                    "Type": "TextAreaPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 4,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Name": "Catalin Andrei Dobre",
+                        "TextHeader": "Hear Dragos reading out a short passage",
+                        "TextContent" : "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?"
+                    }
+                },
+
+
+                {
+                    "Id": 12,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 4,
+                        "PictureUrl": "http://46.4.214.252:8080/pricope.png",
+                        "HeaderText": "",
+                        "Name": "Dragos",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+                {
+                    "Id": 14,
+                    "Type": "RatingInput",
+                    "Properties":
+                    {
+                        "UserName" : "Dragos",
+                        "Metrics" :
+                        [
+                            {
+                                "Id" : 1,
+                                "Type" :  "Slider",
+                                "Properties" :
+                                    {
+                                        "Text" :  "How well did Dragos pronounce keywords fugiat ans consequuntur?",
+                                        "Category" : "Word Pronunciation",
+                                        "Labels" : ["Very Bad", "Bad", "Bad/Good", "Good", "Very Good"]
+                                    }
+                            }
+                         ]
+                    }
+                },
+                {
+                    "Id": 15,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your feedback.",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

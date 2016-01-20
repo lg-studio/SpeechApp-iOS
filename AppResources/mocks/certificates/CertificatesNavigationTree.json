@@ -1,0 +1,45 @@
+{
+    "StatusCode": 0,
+    "Message": "Ok",
+    "Data": {
+        "Certificates": [
+            {
+                "Id": "1234",
+                "Name": "Cambridge Certificates",
+                "Subcategories": [
+                    {
+                        "Id": "5678",
+                        "Name": "IELTS"
+                    },
+                    {
+                        "Id": "5678",
+                        "Name": "FCE"
+                    },
+                    {
+                        "Id": "5678",
+                        "Name": "CAE"
+                    },
+                    {
+                        "Id": "5678",
+                        "Name": "CPE"
+                    }
+                ]
+            },
+            {
+                "Id": "1234",
+                "Name": "TOEFL - iBT",
+                "Subcategories": []
+            },
+            {
+                "Id": "1234",
+                "Name": "School's Language Lab",
+                "Subcategories": []
+            },
+            {
+                "Id": "1234",
+                "Name": "Rating",
+                "Subcategories": []
+            }
+        ]
+    }
+}

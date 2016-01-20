@@ -1,0 +1,90 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "Items" :
+            [
+
+                {
+                    "Id": 12,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "Delay" : 0,
+                        "UserId": 1222,
+                        "PictureUrl": "http://46.4.214.252:8080/pricope.png",
+                        "HeaderText": "This is the response received from Dragos.",
+                        "Name": "Dragos",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+                {
+                    "Id": 13,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 5,
+                        "PictureUrl": "http://46.4.214.252:8080/pricope.png",
+                        "HeaderText": "",
+                        "Name": "Dragos",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+                {
+                    "Id": 14,
+                    "Type": "RatingInput",
+                    "Properties":
+                    {
+                        "LinkedEntityId": "3",
+                        "UserName" : "Dragos",
+                        "Metrics" :
+                        [
+                            {
+                                "Id" : 1,
+                                "Type" :  "Slider",
+                                "Properties" :
+                                    {
+                                        "Text" :  "How well did Dragos speak?",
+                                        "Category" : "Speaking",
+                                        "Labels" : ["Very Bad", "Bad", "Bad/Good", "Good", "Very Good"]
+                                    }
+                            },
+                            {
+                                "Id" : 2,
+                                "Type" : "Thumbs",
+                                "Properties" :
+                                    {
+                                        "Text" :  "Do you like how does Dragos know the domain?",
+                                        "Category" : "Technical Skills"
+                                    }
+                            },
+                            {
+                                "Id" : 3,
+                                "Type" : "Slider",
+                                "Properties" :
+                                    {
+                                        "Text" :  "How is Dragos's pronunciation?",
+                                        "Category" : "Pronunciation",
+                                        "Labels" : ["Very Bad", "Bad", "Bad/Good", "Good", "Very Good"]
+                                    }
+                            }
+                         ]
+                    }
+                },
+                {
+                    "Id": 15,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your feedback. Now it's time for your answer!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

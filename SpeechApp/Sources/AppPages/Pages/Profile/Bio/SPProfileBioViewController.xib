@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPProfileBioViewController" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonChangePassword" destination="yeS-l6-yCn" id="foM-OU-CnK"/>
+                <outlet property="buttonEdit" destination="1b9-DU-W1P" id="KzQ-Rt-A52"/>
+                <outlet property="tableView" destination="IP2-Te-mX9" id="box-uD-LEx"/>
+                <outlet property="topView" destination="F4U-zU-Nxr" id="81r-jE-Otd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBackground" destination="BtP-cT-Xwn" id="LOR-CZ-89m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BtP-cT-Xwn" userLabel="BackgroundView">
+                    <rect key="frame" x="5" y="5" width="310" height="470"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F4U-zU-Nxr" userLabel="TopView">
+                            <rect key="frame" x="5" y="5" width="300" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeS-l6-yCn">
+                                    <rect key="frame" x="195" y="5" width="95" height="30"/>
+                                    <color key="backgroundColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="8HO-YZ-End"/>
+                                        <constraint firstAttribute="width" constant="95" id="rh1-QO-LoW"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                    <state key="normal" title="Change Password">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonChangePasswordAction:" destination="-1" eventType="touchUpInside" id="bDb-Nu-we5"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b9-DU-W1P">
+                                    <rect key="frame" x="10" y="5" width="95" height="30"/>
+                                    <color key="backgroundColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="QuU-iY-LSg"/>
+                                        <constraint firstAttribute="width" constant="95" id="YFe-0k-XU5"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                    <state key="normal" title="Edit">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="buttonEditAction:" destination="-1" eventType="touchUpInside" id="lO4-Qe-DYT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.38823529410000002" green="0.58823529409999997" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="1b9-DU-W1P" firstAttribute="top" secondItem="F4U-zU-Nxr" secondAttribute="top" constant="5" id="2DG-Dp-n1O"/>
+                                <constraint firstItem="yeS-l6-yCn" firstAttribute="top" secondItem="F4U-zU-Nxr" secondAttribute="top" constant="5" id="TzI-JL-kij"/>
+                                <constraint firstItem="1b9-DU-W1P" firstAttribute="leading" secondItem="F4U-zU-Nxr" secondAttribute="leading" constant="10" id="bcY-mb-q3D"/>
+                                <constraint firstAttribute="height" constant="40" id="jm9-U7-Tto"/>
+                                <constraint firstAttribute="trailing" secondItem="yeS-l6-yCn" secondAttribute="trailing" constant="10" id="ofg-j1-MSd"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="IP2-Te-mX9">
+                            <rect key="frame" x="5" y="50" width="300" height="415"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="3Jc-sb-yA8"/>
+                                <outlet property="delegate" destination="-1" id="zKy-xr-Gl7"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="IP2-Te-mX9" firstAttribute="top" secondItem="F4U-zU-Nxr" secondAttribute="bottom" constant="5" id="2p6-gv-2Cm"/>
+                        <constraint firstAttribute="trailing" secondItem="IP2-Te-mX9" secondAttribute="trailing" constant="5" id="KYC-ey-RG9"/>
+                        <constraint firstAttribute="bottom" secondItem="IP2-Te-mX9" secondAttribute="bottom" priority="750" constant="5" id="LHe-I5-eXt"/>
+                        <constraint firstItem="F4U-zU-Nxr" firstAttribute="top" secondItem="BtP-cT-Xwn" secondAttribute="top" constant="5" id="TuA-XD-7sc"/>
+                        <constraint firstItem="IP2-Te-mX9" firstAttribute="leading" secondItem="BtP-cT-Xwn" secondAttribute="leading" constant="5" id="ovc-9C-hXk"/>
+                        <constraint firstItem="F4U-zU-Nxr" firstAttribute="leading" secondItem="BtP-cT-Xwn" secondAttribute="leading" constant="5" id="sBr-BZ-cDR"/>
+                        <constraint firstAttribute="trailing" secondItem="F4U-zU-Nxr" secondAttribute="trailing" constant="5" id="xpR-uK-jjO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BtP-cT-Xwn" secondAttribute="bottom" constant="5" id="D5X-GU-E5u"/>
+                <constraint firstItem="BtP-cT-Xwn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="J1E-iW-UP5"/>
+                <constraint firstAttribute="trailing" secondItem="BtP-cT-Xwn" secondAttribute="trailing" constant="5" id="SSY-oh-rrS"/>
+                <constraint firstItem="BtP-cT-Xwn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="mwB-u1-hgf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

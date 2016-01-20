@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPSidebarMenuViewController" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="qgK-uC-kev" id="qqv-ZF-pKM"/>
+                <outlet property="imageProfilePicture" destination="53S-bb-XAN" id="Knb-f6-vxg"/>
+                <outlet property="labelName" destination="Qhv-pr-MSx" id="vJU-bP-s0h"/>
+                <outlet property="leadingEdgeConstraint" destination="UiL-ht-v1n" id="H4l-mf-8Z0"/>
+                <outlet property="tableView" destination="JBy-35-I1p" id="0Hh-H7-D0Z"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewProfilePicture" destination="MOz-PJ-Rt4" id="zSU-1R-zvH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgK-uC-kev" userLabel="BackgroundView">
+                    <rect key="frame" x="64" y="0.0" width="256" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MOz-PJ-Rt4" userLabel="BackgroundImageView">
+                            <rect key="frame" x="8" y="28" width="34" height="34"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="53S-bb-XAN" customClass="AsyncImageView">
+                                    <rect key="frame" x="2" y="2" width="30" height="30"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="2Ko-bl-Mln"/>
+                                <constraint firstAttribute="width" constant="34" id="5lh-v4-FYs"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="196" placeholderIntrinsicHeight="30" text="Ionut Cristian Paraschiv dsadasdsa ddsadsa" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qhv-pr-MSx">
+                            <rect key="frame" x="50" y="35" width="196" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="3on-fv-J5V"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="JBy-35-I1p" userLabel="Menu">
+                            <rect key="frame" x="0.0" y="75" width="256" height="493"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Oe0-jW-XO2"/>
+                                <outlet property="delegate" destination="-1" id="9tU-zU-2r0"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.14117647059999999" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Qhv-pr-MSx" secondAttribute="trailing" constant="10" id="7tN-eS-QUj"/>
+                        <constraint firstItem="Qhv-pr-MSx" firstAttribute="top" secondItem="qgK-uC-kev" secondAttribute="top" constant="35" id="BdI-CR-ElH"/>
+                        <constraint firstItem="MOz-PJ-Rt4" firstAttribute="leading" secondItem="qgK-uC-kev" secondAttribute="leading" constant="8" id="F9S-DW-BAW"/>
+                        <constraint firstItem="JBy-35-I1p" firstAttribute="top" secondItem="MOz-PJ-Rt4" secondAttribute="bottom" constant="13" id="R1i-0r-QNY"/>
+                        <constraint firstItem="JBy-35-I1p" firstAttribute="leading" secondItem="qgK-uC-kev" secondAttribute="leading" id="d9A-9B-0tA"/>
+                        <constraint firstItem="Qhv-pr-MSx" firstAttribute="leading" secondItem="MOz-PJ-Rt4" secondAttribute="trailing" constant="8" id="idd-ZG-B5V"/>
+                        <constraint firstAttribute="trailing" secondItem="JBy-35-I1p" secondAttribute="trailing" id="j7I-g0-y3g"/>
+                        <constraint firstAttribute="bottom" secondItem="JBy-35-I1p" secondAttribute="bottom" id="qCd-5s-IUd"/>
+                        <constraint firstItem="MOz-PJ-Rt4" firstAttribute="top" secondItem="qgK-uC-kev" secondAttribute="top" constant="28" id="rjg-2o-ROi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qgK-uC-kev" secondAttribute="trailing" id="712-B5-JoA"/>
+                <constraint firstItem="qgK-uC-kev" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="64" id="UiL-ht-v1n"/>
+                <constraint firstAttribute="bottom" secondItem="qgK-uC-kev" secondAttribute="bottom" id="r28-g1-sCK"/>
+                <constraint firstItem="qgK-uC-kev" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yKc-WN-4jo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

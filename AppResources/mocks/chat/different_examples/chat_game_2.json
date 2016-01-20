@@ -1,0 +1,227 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "Items" :
+            [
+
+                {
+                    "Id": 0,
+                    "Type": "MultipleChoicePictureInput",
+                    "Properties":
+                    {
+                        "LinkedEntityId": "4",
+                        "SuccessMessage" : "Congratulations, your answer is correct!",
+                        "InsuccessMessage" : "Unfortunately your answer is wrong..",
+                        "Options":
+                        [
+                            {
+                                "Id" : 1,
+                                "PictureUrl" : "http://46.4.214.252:8080/img1.png",
+                                "Value" : 0
+                            },
+                            {
+                                "Id" : 2,
+                                "PictureUrl" : "http://46.4.214.252:8080/img2.png",
+                                "Value" : 0
+                            },
+                            {
+                                "Id" : 3,
+                                "PictureUrl" : "http://46.4.214.252:8080/img3.png",
+                                "Value" : 1
+                            },
+                            {
+                                "Id" : 4,
+                                "PictureUrl" : "http://46.4.214.252:8080/img4.png",
+                                "Value" : 0
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "Id": 0,
+                    "Type": "MultipleChoiceTextInput",
+                    "Properties":
+                    {
+                        "SuccessMessage" : "Congratulations, your answer is correct!",
+                        "InsuccessMessage" : "Unfortunately your answer is wrong..",
+                        "Options":
+                        [
+                            {
+                                "Id" : 1,
+                                "Text" : "Tennis",
+                                "Value" : 0
+                            },
+                            {
+                                "Id" : 2,
+                                "Text" : "Softball",
+                                "Value" : 0
+                            },
+                            {
+                                "Id" : 3,
+                                "Text" : "Football",
+                                "Value" : 1
+                            },
+                            {
+                                "Id" : 4,
+                                "Text" : "Hiking",
+                                "Value" : 0
+                            }
+                        ]
+                    }
+                },
+
+                {
+                    "Id": 1,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Hi there! Let's make a Software Engineering interview!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                },
+
+                {
+                    "Id": 1,
+                    "Type": "ImagePrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Name": "Catalin Andrei Dobre",
+                        "TextHeader": "Please describe this image in your own words",
+                        "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                    }
+                },
+                {
+                    "Id": 1,
+                    "Type": "ImagePrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/paraschiv.png",
+                        "Name": "Me",
+                        "PersonalMessage" : 1,
+                        "TextHeader": "Dobredev is the best dev!!",
+                        "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                    }
+                },
+
+                {
+                    "Id": 1,
+                    "Type": "TextAreaPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Name": "Catalin Andrei Dobre",
+                        "TextHeader": "This is the description of the task",
+                        "TextContent" : "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?"
+                    }
+                },
+                {
+                    "Id": 1,
+                    "Type": "TextAreaPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/paraschiv.png",
+                        "Name": "Me",
+                        "PersonalMessage" : 1,
+                        "TextHeader": "This is the description of the task",
+                        "TextContent" : "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt!!!!"
+                    }
+                },
+
+                {
+                    "Id": 2,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "HeaderText": "First let's find out something about you.",
+                        "Name": "Catalin Andrei Dobre",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+                {
+                    "Id": 3,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "QuestionId": 1
+                    }
+                },
+                {
+                    "Id": 4,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "LinkedEntityId": "1",
+                        "MinLength": 10,
+                        "MaxLenght": 30,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+
+                {
+                    "Id": 5,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "HeaderText": "Now let's get more technical.",
+                        "Name": "Catalin Andrei Dobre",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+
+                {
+                    "Id": 6,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "QuestionId": 2
+                    }
+                },
+                {
+                    "Id": 7,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "LinkedEntityId": "1",
+                        "MinLength": 10,
+                        "MaxLenght": 30,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+                {
+                    "Id": 8,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 0,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your answers!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

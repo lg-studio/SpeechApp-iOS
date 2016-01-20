@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11060BC4-8598-4885-9990-2A198F681686</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpeechApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>19DFB8E212E5AD88141F2F1B21E38DAD22504AAB</key>
+		<string>https://46.4.214.250/SpeechApp/SpeechApp-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpeechApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>19DFB8E212E5AD88141F2F1B21E38DAD22504AAB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://46.4.214.250/SpeechApp/SpeechApp-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>19DFB8E212E5AD88141F2F1B21E38DAD22504AAB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>19DFB8E212E5AD88141F2F1B21E38DAD22504AAB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SpeechApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

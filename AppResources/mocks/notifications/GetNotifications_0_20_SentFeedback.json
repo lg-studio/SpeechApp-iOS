@@ -1,0 +1,98 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "Notifications" :
+            [
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You received 3 points for a review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : null,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 16
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You were penalized for review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : 1439551291699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 14
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You were penalized with 2 points for a feedback you gave in the interview  game",
+                    "ReadTimestamp" : 1439531111699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 20
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You received 3 points for a review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : 1439531221699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 16
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You were penalized for review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : 1439551291699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 14
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You were penalized with 2 points for a feedback you gave in the interview  game",
+                    "ReadTimestamp" : 1439531111699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 20
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You received 3 points for a review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : null,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 16
+                    }
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You were penalized for review you gave in the interview game (CAE)",
+                    "ReadTimestamp" : 1439551291699,
+                    "Type": "SentFeedback",
+                    "Properties":
+                    {
+                        "TaskId" : "552d077f00c97637a01eeeee",
+                        "NodeId" : 14
+                    }
+                }
+            ]
+      }
+}

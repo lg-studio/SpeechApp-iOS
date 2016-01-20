@@ -1,0 +1,71 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "TaskId" : "552d077f00c97637a01eeeee",
+          "Items" :
+            [
+
+                {
+                    "Id": 0,
+                    "Type": "TextAreaPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 3,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Name": "Catalin Andrei Dobre",
+                        "TextHeader": "Read the short passage below",
+                        "TextContent" : "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?"
+                    }
+                },
+                {
+                    "Id": 1,
+                    "NodeId": 1,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "QuestionId": 5
+                    }
+                },
+
+                {
+                    "Id": 2,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 1,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Please let us know what you think about the text.",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                },
+                {
+                    "Id": 3,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "MinLength": 10,
+                        "MaxLength": 30,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+
+                {
+                    "Id": 4,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 0,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your answer!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

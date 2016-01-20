@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPChatRatingInputThumbsViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPChatRatingInputThumbsViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="300" placeholderIntrinsicHeight="17" text="Did you like Tina's speaking?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18J-mb-fob" userLabel="Text">
+                        <rect key="frame" x="5" y="0.0" width="300" height="17"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="51" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsD-S6-lY1" userLabel="Score">
+                        <rect key="frame" x="247" y="25" width="51" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="SN8-j6-7NW"/>
+                            <constraint firstAttribute="height" constant="21" id="STy-2g-YvW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="32" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="Xu5-Zq-0Lf" userLabel="ThumbsUpView">
+                        <rect key="frame" x="110" y="20" width="32" height="32"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQb-zc-iCb" userLabel="ThumbsUpButton">
+                                <rect key="frame" x="1" y="1" width="30" height="30"/>
+                                <state key="normal" image="ThumbsUp">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThumbsUpPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rPa-IK-zsV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="3sj-Vj-ZjY"/>
+                            <constraint firstAttribute="height" constant="32" id="5hw-5a-5nK"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="32" placeholderIntrinsicHeight="32" translatesAutoresizingMaskIntoConstraints="NO" id="Ul1-Nb-Fgo" userLabel="ThumbsDownView">
+                        <rect key="frame" x="168" y="20" width="32" height="32"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzW-Cs-Iii" userLabel="ThumbsDownButton">
+                                <rect key="frame" x="1" y="1" width="30" height="30"/>
+                                <state key="normal" image="ThumbsDown">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThumbsDownPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yP6-Sg-vLl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="6Dr-C9-bHX"/>
+                            <constraint firstAttribute="width" constant="32" id="BUI-oI-ELA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.1215686275" green="0.1019607843" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Ul1-Nb-Fgo" firstAttribute="top" secondItem="18J-mb-fob" secondAttribute="bottom" constant="3" id="0WY-Pe-rDV"/>
+                    <constraint firstAttribute="centerX" secondItem="Ul1-Nb-Fgo" secondAttribute="centerX" constant="-29" id="Az4-qp-k9i"/>
+                    <constraint firstItem="18J-mb-fob" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Epj-8s-ejT"/>
+                    <constraint firstAttribute="centerX" secondItem="Xu5-Zq-0Lf" secondAttribute="centerX" constant="29" id="QdL-yh-xgZ"/>
+                    <constraint firstAttribute="trailing" secondItem="18J-mb-fob" secondAttribute="trailing" constant="5" id="aJb-LI-mdy"/>
+                    <constraint firstAttribute="trailing" secondItem="hsD-S6-lY1" secondAttribute="trailing" constant="12" id="cmJ-sI-Jm9"/>
+                    <constraint firstItem="18J-mb-fob" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="hmI-JC-SFz"/>
+                    <constraint firstItem="Xu5-Zq-0Lf" firstAttribute="top" secondItem="18J-mb-fob" secondAttribute="bottom" constant="3" id="kWQ-pC-oCg"/>
+                    <constraint firstAttribute="bottom" secondItem="hsD-S6-lY1" secondAttribute="bottom" constant="8" id="uQF-1B-gkz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonThumbsDown" destination="dzW-Cs-Iii" id="svK-U1-E8K"/>
+                <outlet property="buttonThumbsUp" destination="HQb-zc-iCb" id="BSd-Uv-92a"/>
+                <outlet property="labelScore" destination="hsD-S6-lY1" id="fgG-AL-L4Z"/>
+                <outlet property="labelText" destination="18J-mb-fob" id="dbp-bg-obZ"/>
+                <outlet property="viewThumbsDown" destination="Ul1-Nb-Fgo" id="FDI-so-GFE"/>
+                <outlet property="viewThumbsUp" destination="Xu5-Zq-0Lf" id="kl8-7F-LYz"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ThumbsDown" width="50" height="50"/>
+        <image name="ThumbsUp" width="50" height="50"/>
+    </resources>
+</document>

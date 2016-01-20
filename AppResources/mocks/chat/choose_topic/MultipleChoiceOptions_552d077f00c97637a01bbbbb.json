@@ -1,0 +1,199 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "MultipleChoiceOptions" :
+            {
+                "DisplayText" : "Please select a topic",
+                "Options" :
+                [
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "Hobbies"
+                            },
+                        "InnerOptions" :
+                            [
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Football"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Handball"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Softball"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Hiking"
+                                  }
+                              },{
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Painting"
+                                  }
+                              }
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "Family"
+                            },
+                        "InnerOptions" :
+                        [
+                            {
+                              "Id" : 2,
+                              "Type" : "Text",
+                              "Properties" :
+                                {
+                                  "Text" : "Relatives"
+                                }
+                            },
+                            {
+                              "Id" : 2,
+                              "Type" : "Text",
+                              "Properties" :
+                                {
+                                  "Text" : "Social Games"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "School Subjects"
+                            },
+                        "InnerOptions" :
+                            [
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Math"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "English"
+                                  }
+                              }
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "Music"
+                            },
+                        "InnerOptions" :
+                            [
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Rock"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "House"
+                                  }
+                              }
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "Sports"
+                            },
+                        "InnerOptions" :
+                            [
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Tennis"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Jogging"
+                                  }
+                              }
+                            ]
+                    },
+                    {
+                        "Id" : 1,
+                        "Type" : "Text",
+                        "Properties" :
+                            {
+                                "Text" : "Lifestyle"
+                            },
+                        "InnerOptions" :
+                            [
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Food"
+                                  }
+                              },
+                              {
+                                "Id" : 2,
+                                "Type" : "Text",
+                                "Properties" :
+                                  {
+                                    "Text" : "Exercises"
+                                  }
+                              }
+                            ]
+                    }
+                ]
+            }
+        }
+}

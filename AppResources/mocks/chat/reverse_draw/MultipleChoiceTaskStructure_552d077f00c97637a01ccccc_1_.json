@@ -1,0 +1,57 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "TaskId" : "552d077f00c97637a01ccccc",
+          "Items" :
+            [
+                {
+                    "Id": 1,
+                    "NodeId": 1,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "LinkedNodeId": 4
+                    }
+                },
+
+                {
+                    "Id": 1,
+                    "Type": "ImagePrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Name": "Catalin Andrei Dobre",
+                        "TextHeader": "Please describe this image in your own words",
+                        "ImageUrl" : "http://46.4.214.252:8080/img1.png"
+                    }
+                },
+                {
+                    "Id": 4,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "MinLength": 12,
+                        "MaxLength": 119,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+                {
+                    "Id": 8,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 0,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your answers!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

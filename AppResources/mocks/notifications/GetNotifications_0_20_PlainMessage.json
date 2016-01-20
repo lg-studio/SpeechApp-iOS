@@ -1,0 +1,66 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "Notifications" :
+            [
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "Congratulations! You have been selected as a tiebreaker.",
+                    "ReadTimestamp" : 1439551113699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You achieved a score of 78% for the Speaking competence.",
+                    "ReadTimestamp" : null,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You achieved a score of 81% for the Comp 1 competence",
+                    "ReadTimestamp" : 1439531221699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "Congratulations! You have been selected as a tiebreaker.",
+                    "ReadTimestamp" : 1439551113699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You achieved a score of 78% for the Speaking competence.",
+                    "ReadTimestamp" : 1439537771699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You achieved a score of 81% for the Comp 1 competence",
+                    "ReadTimestamp" : 1439531221699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "Congratulations! You have been selected as a tiebreaker.",
+                    "ReadTimestamp" : 1439551113699,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                },
+                {
+                    "Id": "932d077f33c97637a01ldytp",
+                    "Message" : "You achieved a score of 78% for the Speaking competence.",
+                    "ReadTimestamp" : null,
+                    "Type": "PlainMessage",
+                    "Properties": null
+                }
+            ]
+      }
+}

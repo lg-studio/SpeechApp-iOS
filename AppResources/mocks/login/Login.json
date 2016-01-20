@@ -1,0 +1,15 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "UserDetails" :
+            {
+                "UserName" : "ionut.paraschiv",
+                "FirstName" : "Ionut Cristian",
+                "LastName" : "Paraschiv",
+                "Email" : "ionut.paraschiv@3angletech.com",
+                "ProfileImageUrl" : "http://46.4.214.252:8080/paraschiv.png"
+            }
+        }
+}

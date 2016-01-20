@@ -1,0 +1,79 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "Items" :
+              [
+
+                  {
+                      "Id": 12,
+                      "Type": "AudioPrompt",
+                      "Properties":
+                      {
+                          "UserId": 1222,
+                          "Delay" : 0,
+                          "PictureUrl": "http://46.4.214.252:8080/pricope.png",
+                          "HeaderText": "This is the response received from Dragos.",
+                          "Name": "Dragos",
+                          "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                      }
+                  },
+                  {
+                      "Id": 13,
+                      "Type": "AudioPrompt",
+                      "Properties":
+                      {
+                          "UserId": 1222,
+                          "Delay" : 4,
+                          "PictureUrl": "http://46.4.214.252:8080/pricope.png",
+                          "HeaderText": "",
+                          "Name": "Dragos",
+                          "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                      }
+                  },
+                  {
+                      "Id": 14,
+                      "Type": "RatingInput",
+                      "Properties":
+                      {
+                          "LinkedEntityId": "3",
+                          "Username" : "Dragos",
+                          "Metrics" :
+                          [
+                              {
+                                  "MetricId" : 1,
+                                  "MetricType" :  "Slider",
+                                  "Text" :  "How well did Dragos speak?",
+                                  "Category" : "Speaking"
+                              },
+                              {
+                                  "MetricId" : 2,
+                                  "MetricType" : "Thumbs",
+                                  "Text" :  "Do you like how does Dragos know the domain?",
+                                  "Category" : "Technical Skills"
+                              },
+                              {
+                                  "MetricId" : 3,
+                                  "MetricType" : "Slider",
+                                  "Text" :  "How is Dragos's pronunciation?",
+                                  "Category" : "Pronunciation"
+                              }
+                           ]
+                      }
+                  },
+                  {
+                      "Id": 15,
+                      "Type": "TextPrompt",
+                      "Properties":
+                      {
+                          "UserId": 1222,
+                          "Delay" : 0,
+                          "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                          "Text": "Thank you for your feedback. Now it's time for your answer!",
+                          "Name": "Catalin Andrei Dobre"
+                      }
+                  }
+              ]
+        }
+}

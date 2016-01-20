@@ -1,0 +1,6 @@
+framework module AsyncImageView {
+  umbrella header "Pods-AsyncImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

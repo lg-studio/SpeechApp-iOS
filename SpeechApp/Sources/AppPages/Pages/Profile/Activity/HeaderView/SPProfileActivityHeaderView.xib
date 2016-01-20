@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPProfileActivityHeaderView" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="6eL-7K-sXs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="80" placeholderIntrinsicHeight="50" text="Task Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IF-b9-CnF" userLabel="Label1">
+                    <rect key="frame" x="7" y="5" width="80" height="30"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="80" placeholderIntrinsicHeight="50" text="Feedback" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ja6-0W-lLU" userLabel="Label2">
+                    <rect key="frame" x="92" y="5" width="80" height="30"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="80" placeholderIntrinsicHeight="50" text="Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EfR-DJ-yzx" userLabel="Label3">
+                    <rect key="frame" x="177" y="5" width="80" height="30"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ja6-0W-lLU" firstAttribute="leading" secondItem="9IF-b9-CnF" secondAttribute="trailing" constant="5" id="0Yh-dp-qfP"/>
+                <constraint firstAttribute="bottom" secondItem="9IF-b9-CnF" secondAttribute="bottom" constant="5" id="3oA-O3-Lfx"/>
+                <constraint firstAttribute="bottom" secondItem="ja6-0W-lLU" secondAttribute="bottom" constant="5" id="F9Q-WY-xrk"/>
+                <constraint firstItem="9IF-b9-CnF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="JA8-Vp-u7X"/>
+                <constraint firstAttribute="bottom" secondItem="EfR-DJ-yzx" secondAttribute="bottom" constant="5" id="Y6g-bF-Z3j"/>
+                <constraint firstItem="EfR-DJ-yzx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="biy-vV-Zmf"/>
+                <constraint firstItem="EfR-DJ-yzx" firstAttribute="width" secondItem="ja6-0W-lLU" secondAttribute="width" id="c38-lM-Udh"/>
+                <constraint firstAttribute="trailing" secondItem="EfR-DJ-yzx" secondAttribute="trailing" constant="43" id="fAd-2i-07W"/>
+                <constraint firstItem="9IF-b9-CnF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="k2r-Kf-Rs9"/>
+                <constraint firstItem="EfR-DJ-yzx" firstAttribute="leading" secondItem="ja6-0W-lLU" secondAttribute="trailing" constant="5" id="lV0-IQ-Tf5"/>
+                <constraint firstItem="ja6-0W-lLU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="rUc-HY-454"/>
+                <constraint firstItem="EfR-DJ-yzx" firstAttribute="width" secondItem="9IF-b9-CnF" secondAttribute="width" id="wEQ-kt-YGe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

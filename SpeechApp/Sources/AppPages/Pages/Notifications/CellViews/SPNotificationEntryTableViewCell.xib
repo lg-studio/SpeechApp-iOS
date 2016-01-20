@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPNotificationEntryTableViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPNotificationEntryTableViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGW-Iv-1WE">
+                        <rect key="frame" x="2" y="2" width="296" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="255" placeholderIntrinsicHeight="56" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21E-G9-c5e">
+                                <rect key="frame" x="2" y="2" width="255" height="56"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RightArrowExpandColoured" translatesAutoresizingMaskIntoConstraints="NO" id="Gfw-SQ-qLc">
+                                <rect key="frame" x="261" y="15" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="n03-q0-6zz"/>
+                                    <constraint firstAttribute="height" constant="30" id="rLo-3c-PW2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Gfw-SQ-qLc" firstAttribute="leading" secondItem="21E-G9-c5e" secondAttribute="trailing" constant="4" id="DMp-rr-K4o"/>
+                            <constraint firstItem="21E-G9-c5e" firstAttribute="leading" secondItem="KGW-Iv-1WE" secondAttribute="leading" constant="2" id="DPf-4Y-Mft"/>
+                            <constraint firstAttribute="bottom" secondItem="21E-G9-c5e" secondAttribute="bottom" constant="2" id="Ue1-Et-6mi"/>
+                            <constraint firstAttribute="centerY" secondItem="Gfw-SQ-qLc" secondAttribute="centerY" id="bbG-Gg-SOy"/>
+                            <constraint firstAttribute="trailing" secondItem="Gfw-SQ-qLc" secondAttribute="trailing" constant="5" id="dKE-n9-Qa8"/>
+                            <constraint firstItem="21E-G9-c5e" firstAttribute="top" secondItem="KGW-Iv-1WE" secondAttribute="top" constant="2" id="oMT-pM-ps3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="KGW-Iv-1WE" secondAttribute="bottom" constant="2" id="3hP-hg-KRQ"/>
+                    <constraint firstItem="KGW-Iv-1WE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="ZYj-TK-DL6"/>
+                    <constraint firstItem="KGW-Iv-1WE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="igb-7j-AHL"/>
+                    <constraint firstAttribute="trailing" secondItem="KGW-Iv-1WE" secondAttribute="trailing" constant="2" id="w6S-yD-8gB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="notificationArrow" destination="Gfw-SQ-qLc" id="CPc-jO-ski"/>
+                <outlet property="notificationBackground" destination="KGW-Iv-1WE" id="tho-UH-efv"/>
+                <outlet property="notificationLabel" destination="21E-G9-c5e" id="C6X-lf-cpN"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="RightArrowExpandColoured" width="30" height="30"/>
+    </resources>
+</document>

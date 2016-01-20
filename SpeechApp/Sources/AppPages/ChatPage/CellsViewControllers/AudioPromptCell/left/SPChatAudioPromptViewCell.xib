@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPChatAudioPromptViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPChatAudioPromptViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="228" placeholderIntrinsicHeight="29" text="daasdas dasdas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Dg-kC-DM0" userLabel="TextLabel" customClass="UIBorderedLabel" customModule="SpeechApp" customModuleProvider="target">
+                        <rect key="frame" x="43" y="5" width="228" height="29"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" placeholderIntrinsicWidth="35" placeholderIntrinsicHeight="35" translatesAutoresizingMaskIntoConstraints="NO" id="KTu-4C-5qS" userLabel="UserImageView">
+                        <rect key="frame" x="5" y="59" width="35" height="35"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="31" placeholderIntrinsicHeight="31" translatesAutoresizingMaskIntoConstraints="NO" id="c9g-3H-5Nq" customClass="AsyncImageView">
+                                <rect key="frame" x="2" y="2" width="31" height="31"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="6fm-cW-TaF"/>
+                            <constraint firstAttribute="width" constant="35" id="QQD-wy-1b5"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="228" placeholderIntrinsicHeight="38" translatesAutoresizingMaskIntoConstraints="NO" id="xey-O9-deV" userLabel="AudioView">
+                        <rect key="frame" x="43" y="37" width="228" height="38"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="20" text="00:30/1:20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IS-Fb-SVR">
+                                <rect key="frame" x="2" y="9" width="55" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="125" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gmM-Tx-AI4">
+                                <rect key="frame" x="60" y="4" width="129" height="31"/>
+                                <color key="tintColor" red="0.38823529411764707" green="0.58823529411764708" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="0.52941176469999995" green="0.75686274509999996" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mzb-CH-Znn">
+                                <rect key="frame" x="192" y="1" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="9yA-fF-Kmd"/>
+                                    <constraint firstAttribute="width" constant="35" id="Hry-NP-V8K"/>
+                                </constraints>
+                                <state key="normal" image="PlayButtonIcon"/>
+                                <connections>
+                                    <action selector="audioPlayerButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="X3j-Ml-61f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gmM-Tx-AI4" firstAttribute="top" secondItem="xey-O9-deV" secondAttribute="top" constant="4" id="0sc-7j-AaX"/>
+                            <constraint firstAttribute="trailing" secondItem="Mzb-CH-Znn" secondAttribute="trailing" constant="1" id="3za-N4-YyD"/>
+                            <constraint firstAttribute="bottom" secondItem="0IS-Fb-SVR" secondAttribute="bottom" constant="9" id="GgS-s9-DAe"/>
+                            <constraint firstItem="Mzb-CH-Znn" firstAttribute="leading" secondItem="gmM-Tx-AI4" secondAttribute="trailing" constant="5" id="ZAS-mC-xGZ"/>
+                            <constraint firstAttribute="height" constant="38" id="ZAo-C4-rQA"/>
+                            <constraint firstAttribute="bottom" secondItem="Mzb-CH-Znn" secondAttribute="bottom" constant="2" id="dgg-xb-d2g"/>
+                            <constraint firstItem="0IS-Fb-SVR" firstAttribute="top" secondItem="xey-O9-deV" secondAttribute="top" constant="9" id="f8E-zs-uoA"/>
+                            <constraint firstAttribute="bottom" secondItem="gmM-Tx-AI4" secondAttribute="bottom" constant="4" id="fDb-ov-WVd"/>
+                            <constraint firstItem="gmM-Tx-AI4" firstAttribute="leading" secondItem="0IS-Fb-SVR" secondAttribute="trailing" constant="5" id="nC0-9Q-D62"/>
+                            <constraint firstItem="0IS-Fb-SVR" firstAttribute="leading" secondItem="xey-O9-deV" secondAttribute="leading" constant="2" id="npu-xd-dgw"/>
+                            <constraint firstItem="Mzb-CH-Znn" firstAttribute="top" secondItem="xey-O9-deV" secondAttribute="top" constant="1" id="pUc-4O-qYb"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="130" placeholderIntrinsicHeight="18" text="Ionut Cristian Paraschiv" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7a4-A7-vFe" userLabel="NameLabel" customClass="UIHorizontalBorderedLabel" customModule="SpeechApp" customModuleProvider="target">
+                        <rect key="frame" x="43" y="77" width="130" height="18"/>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.52549019610000003" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="jvg-ZG-5qT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Dg-kC-DM0" secondAttribute="trailing" constant="39" id="1hy-Zq-BvF"/>
+                    <constraint firstAttribute="bottom" secondItem="7a4-A7-vFe" secondAttribute="bottom" constant="4" id="2TI-6O-0CH"/>
+                    <constraint firstItem="7a4-A7-vFe" firstAttribute="leading" secondItem="KTu-4C-5qS" secondAttribute="trailing" constant="3" id="Etk-1r-T8f"/>
+                    <constraint firstItem="3Dg-kC-DM0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="IVd-RY-yvQ"/>
+                    <constraint firstItem="xey-O9-deV" firstAttribute="top" secondItem="3Dg-kC-DM0" secondAttribute="bottom" constant="3" id="YQW-I2-fL1"/>
+                    <constraint firstAttribute="trailing" secondItem="xey-O9-deV" secondAttribute="trailing" constant="39" id="glO-6K-j2E"/>
+                    <constraint firstItem="7a4-A7-vFe" firstAttribute="top" secondItem="xey-O9-deV" secondAttribute="bottom" constant="2" id="iJA-Wf-Fho"/>
+                    <constraint firstAttribute="bottom" secondItem="KTu-4C-5qS" secondAttribute="bottom" constant="5" id="m6M-SM-lwE"/>
+                    <constraint firstItem="xey-O9-deV" firstAttribute="leading" secondItem="KTu-4C-5qS" secondAttribute="trailing" constant="3" id="vZJ-uC-Tlr"/>
+                    <constraint firstItem="KTu-4C-5qS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ytF-di-82P"/>
+                    <constraint firstItem="3Dg-kC-DM0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="zDn-8M-NSb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="audioProgressLabel" destination="0IS-Fb-SVR" id="dwQ-WZ-7KE"/>
+                <outlet property="audioSlider" destination="gmM-Tx-AI4" id="HMc-Oy-nnf"/>
+                <outlet property="audioStopStartButton" destination="Mzb-CH-Znn" id="9NW-GX-qW1"/>
+                <outlet property="audioViewContainer" destination="xey-O9-deV" id="lMs-rC-E12"/>
+                <outlet property="headerTextLabel" destination="3Dg-kC-DM0" id="HJM-E8-CAH"/>
+                <outlet property="userImageView" destination="c9g-3H-5Nq" id="2wd-s0-ARX"/>
+                <outlet property="userImageViewContainer" destination="KTu-4C-5qS" id="egs-NT-bXn"/>
+                <outlet property="userNameLabel" destination="7a4-A7-vFe" id="TbV-QN-ntR"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PlayButtonIcon" width="35" height="35"/>
+    </resources>
+</document>

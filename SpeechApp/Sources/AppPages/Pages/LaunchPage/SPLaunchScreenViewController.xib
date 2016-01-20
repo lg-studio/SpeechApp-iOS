@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPLaunchScreenViewController" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpeechApp" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="17B-zx-SNO">
+                    <rect key="frame" x="20" y="75" width="441" height="43"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MicrophoneIcon" translatesAutoresizingMaskIntoConstraints="NO" id="XtJ-N8-QTd">
+                    <rect key="frame" x="120" y="144" width="240" height="192"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="XtJ-N8-QTd" secondAttribute="height" multiplier="5:4" id="PKa-yL-TUe"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniversityLogo" translatesAutoresizingMaskIntoConstraints="NO" id="l3w-G3-pTq">
+                    <rect key="frame" x="135" y="390" width="210" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="DwM-JU-wsC"/>
+                        <constraint firstAttribute="width" constant="210" id="HnD-HQ-xH6"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="17B-zx-SNO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="BYg-3I-vw5"/>
+                <constraint firstItem="l3w-G3-pTq" firstAttribute="top" secondItem="XtJ-N8-QTd" secondAttribute="bottom" constant="54" id="EcC-XC-l8g"/>
+                <constraint firstAttribute="centerX" secondItem="XtJ-N8-QTd" secondAttribute="centerX" id="Fy8-v2-PP9"/>
+                <constraint firstItem="XtJ-N8-QTd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="120" id="LBq-kg-rgZ"/>
+                <constraint firstItem="17B-zx-SNO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="fjG-WV-syL"/>
+                <constraint firstAttribute="trailing" secondItem="XtJ-N8-QTd" secondAttribute="trailing" constant="120" id="gs2-wm-F6H"/>
+                <constraint firstAttribute="centerY" secondItem="XtJ-N8-QTd" secondAttribute="centerY" id="ktR-dt-tdH"/>
+                <constraint firstAttribute="centerX" secondItem="l3w-G3-pTq" secondAttribute="centerX" id="oZM-6a-79J"/>
+                <constraint firstAttribute="trailing" secondItem="17B-zx-SNO" secondAttribute="trailing" constant="19" id="omm-TA-Xf4"/>
+                <constraint firstItem="XtJ-N8-QTd" firstAttribute="top" secondItem="17B-zx-SNO" secondAttribute="bottom" constant="26" id="p9x-Uh-MWw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MicrophoneIcon" width="240" height="192"/>
+        <image name="UniversityLogo" width="210" height="48"/>
+    </resources>
+</document>

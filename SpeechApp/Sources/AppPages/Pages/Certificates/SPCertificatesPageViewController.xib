@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SPCertificatesPageViewController" customModule="SpeechApp" customModuleProvider="target">
+            <connections>
+                <outlet property="certificatesTableView" destination="iIM-C6-O0C" id="6Yx-8x-RED"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="iIM-C6-O0C">
+                    <rect key="frame" x="10" y="15" width="300" height="485"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="iMn-Zf-1Rt"/>
+                        <outlet property="delegate" destination="-1" id="xsl-XC-dcY"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UniversityLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hyW-RL-dcd">
+                    <rect key="frame" x="55" y="510" width="210" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="210" id="U8o-Ug-s8Z"/>
+                        <constraint firstAttribute="height" constant="48" id="gPU-TB-AYS"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iIM-C6-O0C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="CJl-Lx-8km"/>
+                <constraint firstAttribute="bottom" secondItem="hyW-RL-dcd" secondAttribute="bottom" constant="10" id="CXU-P1-IUe"/>
+                <constraint firstAttribute="centerX" secondItem="hyW-RL-dcd" secondAttribute="centerX" id="EsP-KT-dOY"/>
+                <constraint firstItem="hyW-RL-dcd" firstAttribute="top" secondItem="iIM-C6-O0C" secondAttribute="bottom" constant="10" id="I5t-qj-2WY"/>
+                <constraint firstItem="iIM-C6-O0C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="PPu-1l-eVe"/>
+                <constraint firstAttribute="trailing" secondItem="iIM-C6-O0C" secondAttribute="trailing" constant="10" id="kDL-sz-5z3"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="UniversityLogo" width="210" height="48"/>
+    </resources>
+</document>

@@ -1,0 +1,122 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "Items" :
+                [
+
+                    {
+                        "Id": 10,
+                        "Type": "TextPrompt",
+                        "Properties":
+                        {
+                            "UserId": 1222,
+                            "Delay" : 2,
+                            "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                            "Text": "You will hear Danielle talking about her hobby.",
+                            "Name": "Catalin Andrei Dobre"
+                        }
+                    },
+                    {
+                        "Id": 11,
+                        "Type": "AudioPrompt",
+                        "Properties":
+                        {
+                            "UserId": 1225,
+                            "Delay" : 5,
+                            "PictureUrl": "http://46.4.214.252:8080/danielle.png",
+                            "HeaderText": "",
+                            "Name": "Danielle",
+                            "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                        }
+                    },
+                    {
+                        "Id": 12,
+                        "Type": "TextPrompt",
+                        "Properties":
+                        {
+                            "UserId": 1222,
+                            "Delay" : 2,
+                            "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                            "Text": "Can you guess the hobby?",
+                            "Name": "Catalin Andrei Dobre"
+                        }
+                    },
+                    {
+                        "Id": 13,
+                        "Type": "MultipleChoiceTextInput",
+                        "Properties":
+                        {
+                            "SuccessMessage" : "Good job! How do you think Danielle did?",
+                            "InsuccessMessage" : "Bad answer.. How do you think Danielle did?",
+                            "Options":
+                            [
+                                {
+                                    "Id" : 1,
+                                    "Text" : "Tennis",
+                                    "Value" : 0
+                                },
+                                {
+                                    "Id" : 2,
+                                    "Text" : "Softball",
+                                    "Value" : 0
+                                },
+                                {
+                                    "Id" : 3,
+                                    "Text" : "Football",
+                                    "Value" : 1
+                                },
+                                {
+                                    "Id" : 4,
+                                    "Text" : "Hiking",
+                                    "Value" : 0
+                                }
+                             ]
+                        }
+                    },
+                    {
+                        "Id": 14,
+                        "Type": "RatingInput",
+                        "Properties":
+                        {
+                            "UserName" : "Danielle",
+                            "Metrics" :
+                            [
+                                {
+                                    "Id" : 1,
+                                    "Type" :  "Slider",
+                                    "Properties" :
+                                        {
+                                            "Text" :  "How well did Danielle speak?",
+                                            "Category" : "Speaking",
+                                            "Labels" : ["Very Bad", "Bad", "Bad/Good", "Good", "Very Good"]
+                                        }
+                                },
+                                {
+                                    "Id" : 2,
+                                    "Type" : "Thumbs",
+                                    "Properties" :
+                                        {
+                                            "Text" :  "Did you like the pronunciation?",
+                                            "Category" : "Pronunciation"
+                                        }
+                                }
+                             ]
+                        }
+                    },
+                    {
+                        "Id": 15,
+                        "Type": "TextPrompt",
+                        "Properties":
+                        {
+                            "UserId": 1222,
+                            "Delay" : 1,
+                            "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                            "Text": "Thank you for your rating. This will certainly boost your feedback stats. Now proceed with your input.",
+                            "Name": "Catalin Andrei Dobre"
+                        }
+                    }
+                ]
+        }
+}

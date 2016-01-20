@@ -1,0 +1,61 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "Items" :
+              [
+
+                  {
+                      "Id": 15,
+                      "Type": "AudioPrompt",
+                      "Properties":
+                      {
+                          "UserId": 1225,
+                          "Delay" : 2,
+                          "PictureUrl": "http://46.4.214.252:8080/danielle.png",
+                          "HeaderText": "This is the response received from Danielle.",
+                          "Name": "Danielle",
+                          "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                      }
+                  },
+                  {
+                      "Id": 16,
+                      "Type": "RatingInput",
+                      "Properties":
+                      {
+                          "LinkedEntityId": "3",
+                          "Username" : "Danielle",
+                          "Metrics" :
+                          [
+                              {
+                                  "MetricId" : 1,
+                                  "MetricType" :  "Slider",
+                                  "Text" :  "How well did Danielle speak?",
+                                  "Category" : "Speaking"
+                              },
+                              {
+                                  "MetricId" : 2,
+                                  "MetricType" : "Thumbs",
+                                  "Text" :  "Did you like the pronunciation?",
+                                  "Category" : "Pronunciation"
+                              }
+                           ]
+                      }
+                },
+                {
+                      "Id": 17,
+                      "Type": "TextPrompt",
+                      "Properties":
+                      {
+                          "UserId": 1222,
+                          "Delay" : 2,
+                          "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                          "Text": "Thank you. This boosted your feedback stat! Now it's your turn. Please answer my question.",
+                          "Name": "Catalin Andrei Dobre"
+                      }
+                }
+
+              ]
+        }
+}

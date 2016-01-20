@@ -1,0 +1,120 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "ProfileTasks" :
+            [
+                {
+                    "TaskName" : "Interview Game",
+                    "Feedback" : 0.6,
+                    "Certificates" : [
+                        {
+                            "Name" : "IELTS",
+                            "Feedback" : 0.8
+                        },
+                        {
+                            "Name" : "CAE",
+                            "Feedback" : 0.7
+                        },
+                        {
+                            "Name" : "FCE",
+                            "Feedback" : 0.9
+                        },
+                        {
+                            "Name" : "CPE",
+                            "Feedback" : 0.2
+                        }
+                    ]
+                },
+                {
+                    "TaskName" : "Reverse Draw",
+                    "Feedback" : 0.12,
+                    "Certificates" : [
+                        {
+                            "Name" : "IELTS",
+                            "Feedback" : 0.8
+                        },
+                        {
+                            "Name" : "CAE",
+                            "Feedback" : 0.7
+                        },
+                        {
+                            "Name" : "FCE",
+                            "Feedback" : 0.9
+                        },
+                        {
+                            "Name" : "CPE",
+                            "Feedback" : 0.2
+                        }
+                    ]
+                },
+                {
+                    "TaskName" : "Opinion Game",
+                    "Feedback" : 0.91,
+                    "Certificates" : [
+                        {
+                            "Name" : "IELTS",
+                            "Feedback" : 0.8
+                        },
+                        {
+                            "Name" : "CAE",
+                            "Feedback" : 0.7
+                        },
+                        {
+                            "Name" : "FCE",
+                            "Feedback" : 0.9
+                        },
+                        {
+                            "Name" : "CPE",
+                            "Feedback" : 0.2
+                        }
+                    ]
+                },
+                {
+                    "TaskName" : "Pronunciation",
+                    "Feedback" : 0.76,
+                    "Certificates" : [
+                        {
+                            "Name" : "IELTS",
+                            "Feedback" : 0.8
+                        },
+                        {
+                            "Name" : "CAE",
+                            "Feedback" : 0.7
+                        },
+                        {
+                            "Name" : "FCE",
+                            "Feedback" : 0.9
+                        },
+                        {
+                            "Name" : "CPE",
+                            "Feedback" : 0.2
+                        }
+                    ]
+                },
+                {
+                    "TaskName" : "Choose Topic",
+                    "Feedback" : 0.43,
+                    "Certificates" : [
+                        {
+                            "Name" : "IELTS",
+                            "Feedback" : 0.8
+                        },
+                        {
+                            "Name" : "CAE",
+                            "Feedback" : 0.7
+                        },
+                        {
+                            "Name" : "FCE",
+                            "Feedback" : 0.9
+                        },
+                        {
+                            "Name" : "CPE",
+                            "Feedback" : 0.2
+                        }
+                    ]
+                }
+             ]
+        }
+}

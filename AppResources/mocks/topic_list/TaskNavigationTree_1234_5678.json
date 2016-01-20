@@ -1,0 +1,163 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+            "TopicList" :
+                [
+                    {
+                        "Id" : "12345",
+                        "Name" : "Interview",
+                        "IconUrl" : "http://46.4.214.252:8080/interview.png",
+                        "Properties" :
+                            {
+                                "AverageScore" : 0.76,
+                                "MinutesSpent" : 86
+                            },
+                        "TaskTemplates" :
+                            [
+                                {
+                                    "Id" : "552d077f00c97637a01c120b",
+                                    "Type" : "RegularTask",
+                                    "Name" : "Beginners Inteview",
+                                    "IconUrl" : "http://46.4.214.252:8080/interview.png",
+                                    "Properties" :
+                                        {
+                                            "Retries" : 5,
+                                            "AverageRating" : 0.65
+                                        }
+                                },
+                                {
+                                    "Id" : "552d077f00c97637a01c120b",
+                                    "Type" : "RegularTask",
+                                    "Name" : "Beginners Inteview 2",
+                                    "IconUrl" : "http://46.4.214.252:8080/interview.png",
+                                    "Properties" :
+                                    {
+                                        "Retries" : 5,
+                                        "AverageRating" : 0.65
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Id" : "87654",
+                            "Name" : "Choose Topic",
+                            "IconUrl" : "http://46.4.214.252:8080/choose_topic.png",
+                            "Properties" :
+                                {
+                                    "AverageScore" : 0.76,
+                                    "MinutesSpent" : 86
+                                },
+                            "TaskTemplates" :
+                                [
+                                 {
+                                    "Id" : "552d077f00c97637a01bbbbb",
+                                    "Type" : "MultipleChoiceTask",
+                                    "Name" : "Choose Topic",
+                                    "IconUrl" : "http://46.4.214.252:8080/choose_topic.png",
+                                    "Properties" :
+                                        {
+                                            "Retries" : 5,
+                                            "AverageRating" : 0.65
+                                        }
+                                 }
+                                ]
+                        },
+                        {
+                            "Id" : "8765213",
+                            "Name" : "Reverse Draw",
+                            "IconUrl" : "http://46.4.214.252:8080/reverse_draw.png",
+                            "Properties" :
+                                {
+                                    "AverageScore" : 0.76,
+                                    "MinutesSpent" : 86
+                                },
+                            "TaskTemplates" :
+                                [
+                                    {
+                                        "Id" : "552d077f00c97637a01ccccc",
+                                        "Type" : "MultipleChoiceTask",
+                                        "Name" : "Reverse Draw",
+                                        "IconUrl" : "http://46.4.214.252:8080/reverse_draw.png",
+                                        "Properties" :
+                                            {
+                                                "Retries" : 5,
+                                                "AverageRating" : 0.65
+                                            }
+                                    }
+                                ]
+                        },
+                        {
+                            "Id" : "12345",
+                            "Name" : "Opinion",
+                            "IconUrl" : "http://46.4.214.252:8080/opinion.png",
+                            "Properties" :
+                                {
+                                    "AverageScore" : 0.76,
+                                    "MinutesSpent" : 86
+                                },
+                                "TaskTemplates" :
+                                    [
+                                        {
+                                            "Id" : "552d077f00c97637a01eeeee",
+                                            "Type" : "RegularTask",
+                                            "Name" : "Beginners Opinion",
+                                            "IconUrl" : "http://46.4.214.252:8080/opinion.png",
+                                            "Properties" :
+                                                {
+                                                    "Retries" : 5,
+                                                    "AverageRating" : 0.65
+                                                }
+                                        },
+                                        {
+                                            "Id" : "552d077f00c97637a01eeeee",
+                                            "Type" : "RegularTask",
+                                            "Name" : "Beginners Opinion 2",
+                                            "IconUrl" : "http://46.4.214.252:8080/opinion.png",
+                                            "Properties" :
+                                                {
+                                                    "Retries" : 5,
+                                                    "AverageRating" : 0.65
+                                                }
+                                        }
+                                    ]
+                        },
+                        {
+                            "Id" : "12345",
+                            "Name" : "Pronunciation",
+                            "IconUrl" : "http://46.4.214.252:8080/pronunciation.png",
+                            "Properties" :
+                                {
+                                    "AverageScore" : 0.76,
+                                    "MinutesSpent" : 86
+                                },
+                            "TaskTemplates" :
+                                [
+                                    {
+                                        "Id" : "552d077f00c97637a01fffff",
+                                        "Type" : "RegularTask",
+                                        "Name" : "Beginners Pronunciation",
+                                        "IconUrl" : "http://46.4.214.252:8080/pronunciation.png",
+                                        "Properties" :
+                                            {
+                                                "Retries" : 5,
+                                                "AverageRating" : 0.65
+                                            }
+                                    },
+                                    {
+                                        "Id" : "552d077f00c97637a01fffff",
+                                        "Type" : "RegularTask",
+                                        "Name" : "Beginners Pronunciation 2",
+                                        "IconUrl" : "http://46.4.214.252:8080/pronunciation.png",
+                                        "Properties" :
+                                            {
+                                                "Retries" : 5,
+                                                "AverageRating" : 0.65
+                                            }
+                                    }
+                                 ]
+                        }
+                ]
+        }
+}

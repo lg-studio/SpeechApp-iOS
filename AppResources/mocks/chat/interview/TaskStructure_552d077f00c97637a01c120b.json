@@ -1,0 +1,103 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "TaskId" : "552d077f00c97637a01c120b",
+          "Items" :
+            [
+                {
+                    "Id": 1,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 1,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Hi there! Let's make a Software Engineering interview!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                },
+                {
+                    "Id": 2,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 5,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "HeaderText": "First let's find out something about you.",
+                        "Name": "Catalin Andrei Dobre",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+                {
+                    "Id": 1,
+                    "NodeId": 1,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "LinkedNodeId": 1
+                    }
+                },
+                {
+                    "Id": 4,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "MinLength": 10,
+                        "MaxLength": 30,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+
+                {
+                    "Id": 5,
+                    "Type": "AudioPrompt",
+                    "Properties":
+                    {
+                        "UserId": 1222,
+                        "Delay" : 2,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "HeaderText": "Now let's get more technical.",
+                        "Name": "Catalin Andrei Dobre",
+                        "AudioUrl" : "https://leuphanaspeechapp.herokuapp.com/Resource/55cb2047e2758cb407bc0aa0"
+                    }
+                },
+
+                {
+                    "Id": 2,
+                    "NodeId": 2,
+                    "Type": "FeedbackRequired",
+                    "Properties":
+                    {
+                        "QuestionId": 2
+                    }
+                },
+                {
+                    "Id": 7,
+                    "Type": "RecordingInput",
+                    "Properties":
+                    {
+                        "MinLength": 10,
+                        "MaxLength": 30,
+                        "MaxRecordings" : 2,
+                        "MaxRetriesPerRecording" : 2
+                    }
+                },
+                {
+                    "Id": 8,
+                    "Type": "TextPrompt",
+                    "Properties":
+                    {
+                        "Delay" : 0,
+                        "UserId": 1222,
+                        "PictureUrl": "http://46.4.214.252:8080/dobre.png",
+                        "Text": "Thank you for your answers!",
+                        "Name": "Catalin Andrei Dobre"
+                    }
+                }
+            ]
+      }
+}

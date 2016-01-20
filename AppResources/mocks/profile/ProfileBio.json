@@ -1,0 +1,21 @@
+{
+    "StatusCode" : 0,
+    "Message" : "",
+    "Data":
+        {
+          "ProfileBio" :
+            {
+                "UserName" : "ionut.paraschiv",
+                "Email" : "ionut.paraschiv@3angletech.com",
+                "ProfileImageUrl" : "http://46.4.214.252:8080/paraschiv.png",
+                "FirstName" : "Ionut Cristian",
+                "LastName" : "Paraschiv",
+                "LastSeenDate" : 1438004284428,
+                "BornYear" : 1989,
+                "Gender" : "Male",
+                "HomeCountry" : "Germany",
+                "NativeLanguage" : "German",
+                "RegistrationDate" : 1438004274428
+            }
+        }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SPImageEditableViewCellIdentifier" id="KGk-i7-Jjw" customClass="SPImageEditableViewCell" customModule="SpeechApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="12" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APL-72-XFi">
+                        <rect key="frame" x="10" y="3" width="280" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="280" id="exV-Gv-M8q"/>
+                            <constraint firstAttribute="height" constant="12" id="v6b-ew-dJe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="10"/>
+                        <color key="textColor" red="0.1450980392" green="0.40000000000000002" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-hx-HdZ" userLabel="ImageView">
+                        <rect key="frame" x="110" y="17" width="81" height="81"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileImagePlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="jsw-WB-zeJ">
+                                <rect key="frame" x="1" y="1" width="79" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="8J8-7g-i1T"/>
+                                    <constraint firstAttribute="width" constant="79" id="IFl-09-xAX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.44999999999999962" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVA-jX-SmN">
+                                <rect key="frame" x="5" y="6" width="70" height="70"/>
+                                <state key="normal" image="AddPlusIcon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapEditableButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sGx-P1-uWV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73333333329999995" green="0.73333333329999995" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="81" id="Czs-fh-vKe"/>
+                            <constraint firstAttribute="width" constant="81" id="IJb-zW-J5f"/>
+                            <constraint firstAttribute="centerY" secondItem="jsw-WB-zeJ" secondAttribute="centerY" id="gZE-He-Ls6"/>
+                            <constraint firstAttribute="centerX" secondItem="jsw-WB-zeJ" secondAttribute="centerX" id="va7-Ew-Z5C"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="ifD-hx-HdZ" firstAttribute="top" secondItem="APL-72-XFi" secondAttribute="bottom" constant="2" id="3mq-RB-UKJ"/>
+                    <constraint firstAttribute="centerX" secondItem="ifD-hx-HdZ" secondAttribute="centerX" id="HbO-2r-v9F"/>
+                    <constraint firstAttribute="centerX" secondItem="APL-72-XFi" secondAttribute="centerX" id="Lmx-42-NwP"/>
+                    <constraint firstAttribute="bottom" secondItem="ifD-hx-HdZ" secondAttribute="bottom" constant="2" id="Nic-Eg-YFR"/>
+                    <constraint firstItem="APL-72-XFi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="bdP-Q6-AzU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="editableBackgroundView" destination="ifD-hx-HdZ" id="NyR-lv-U3h"/>
+                <outlet property="editableButton" destination="aVA-jX-SmN" id="emi-6d-ldq"/>
+                <outlet property="editableImageView" destination="jsw-WB-zeJ" id="4vB-8c-zdq"/>
+                <outlet property="labelField" destination="APL-72-XFi" id="W9q-po-odM"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AddPlusIcon" width="70" height="70"/>
+        <image name="ProfileImagePlaceholder" width="100" height="100"/>
+    </resources>
+</document>
